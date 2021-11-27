@@ -1,3 +1,14 @@
+# FORK NOTE
+
+I've forked this nicely packaged project and am adding a hack to meet the use
+case I have. Certainly don't look here for a nice PR to pull upstream. I may
+come back to this some day if it ends up being useful for more folks, but for
+now, this is just published in the interest of transparency, not code quality.
+
+If anyone is coming here from the ham radio community, you'll need to know some
+Golang to compile & build this. You're welcome to submit a request to add
+some features, but this isn't a primary project of mine.
+
 # go-wol
 
 [![Build Status](https://travis-ci.org/sabhiram/go-wol.svg?branch=master)](https://travis-ci.org/sabhiram/go-wol) [![Coverage Status](https://coveralls.io/repos/github/sabhiram/go-wol/badge.svg?branch=master)](https://coveralls.io/github/sabhiram/go-wol?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/sabhiram/go-wol)](https://goreportcard.com/report/github.com/sabhiram/go-wol)
