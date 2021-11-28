@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/sabhiram/go-wol/wol"
-	flag "github.com/spf13/pflag"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	"github.com/sabhiram/go-wol/wol"
+	flag "github.com/spf13/pflag"
 	"net"
 	"net/http"
 	"os"
@@ -16,11 +16,11 @@ import (
 
 var (
 	listenPort         uint
-	listenAddr   string
+	listenAddr         string
 	broadcastInterface string
 	broadcastIP        string
 	udpPort            uint
-	targetMAC string
+	targetMAC          string
 )
 
 func main() {
