@@ -9,6 +9,19 @@ If anyone is coming here from the ham radio community, you'll need to know some
 Golang to compile & build this. You're welcome to submit a request to add
 some features, but this isn't a primary project of mine.
 
+Quick CLI Notes:
+```
+# local build
+cd cmd/wol-httpd && go build
+
+# rpi3 build
+cd cmd/wol-httpd && GOOS=linux GOARCH=arm64 go build -o wol-httpd-pi3
+
+# quick test
+./wol-httpd &
+curl http://localhost:8080/wolGenerate
+```
+
 # go-wol
 
 [![Build Status](https://travis-ci.org/sabhiram/go-wol.svg?branch=master)](https://travis-ci.org/sabhiram/go-wol) [![Coverage Status](https://coveralls.io/repos/github/sabhiram/go-wol/badge.svg?branch=master)](https://coveralls.io/github/sabhiram/go-wol?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/sabhiram/go-wol)](https://goreportcard.com/report/github.com/sabhiram/go-wol)
